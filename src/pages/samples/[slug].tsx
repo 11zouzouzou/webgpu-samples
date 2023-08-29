@@ -46,6 +46,7 @@ export const pages: PageComponentType = {
   renderBundles: dynamic(() => import('../../sample/renderBundles/main')),
   worker: dynamic(() => import('../../sample/worker/main')),
   'A-buffer': dynamic(() => import('../../sample/a-buffer/main')),
+  zouHelloWorld: dynamic(() => import('../../sample/zou/main')),
 };
 
 function Page({ slug }: Props): JSX.Element {
